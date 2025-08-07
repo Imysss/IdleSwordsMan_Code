@@ -129,7 +129,7 @@
 
 | 스크립트 | 내용 | 기여자 |
 |----------|------|--------|
-| [BaseController](Scripts/Creature/BaseController.cs) | 공통 전투 로직을 담당하는 추상 클래스 | 김경 |
+| [BaseController](Scripts/Creature/BaseController.cs) | 공통 전투 로직을 담당하는 추상 클래스 | 김경민 |
 | [PlayerController](Scripts/Creature/Player/PlayerController.cs) | 플레이어 전용 컨트롤러 | 김경민, 손채민 |
 | [EnemyController](Scripts/Creature/Enemy/EnemyController.cs) | 적 유닛 컨트롤러 | 김경민, 손채민 |
 | [IAttackable](Scripts/Creature/IAttackable.cs) | 공격 가능한 대상이 구현해야 할 인터페이스 | 김경민 |
