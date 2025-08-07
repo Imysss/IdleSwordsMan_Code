@@ -142,17 +142,7 @@
 |----------|------|--------|
 | [SkillData](Scripts/Data/SkillData.cs) | 스킬의 정적 에이터 관리 | 김경민 |
 | [Skill](Scripts/Item/Skill/Skill.cs) | 런타임에 실제로 동작하는 스킬 인스턴스 관리 | 김경민 |
-| [SkillEquipment](Scripts/Item/Skill/SkillEquipment.cs) | 스킬의 장착/해제 관리 | 김경민, 손채민 |
-
-
-### 아이템
-
-| 스크립트 | 내용 | 기여자 |
-|----------|------|--------|
-| [EquipmentManager](Scripts/Manager/Core/EquipmentManager.cs) | 모든 타입의 아이템을 장착/해제하는 공통 로직 제공 | 손채민 |
-| [ItemData](Scripts/Data/ItemData.cs) | 모든 아이템이 공통적으로 가지는 원본 데이터 정의 | 손채민 |
-| [ItemState](Scripts/Data/ItemState.cs) | 아이템의 가변적 데이터 저장 | 손채민 |
-| [GearEquipment](Scripts/Item/Gear/GearEquipment.cs) | 장비 아이템 장착/해제 관리 | 손채민 |
+| [SkillEquipment](Scripts/Item/Skill/SkillEquipment.cs) | 스킬의 장착/해제 관리 | 김경민, 손채민 |승|
 | [SkillEquipment](Scripts/Item/Skill/SkillEquipment.cs) | 스킬 아이템 장착/해제  관리 | 손채민, 김경민 |
 | [PartyEquipment](Scripts/Item/Party/PartyEquipment.cs) | 동료 아이템 장착/해제 관리 | 손채민 |
 
