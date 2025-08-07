@@ -8,7 +8,7 @@
 - 🎮 개발 기간: 2025.06.20 ~ 2025.08.14
 - 🛠️ 개발 환경: Unity 6000.1.8f1
 - 📱 플랫폼: Android (모바일 전용)  
-- 💻 PC 환경: WebGL 빌드 제공 (itch.io 통해 브라우저에서 플레이 가능)
+- 💻 PC 환경: WebGL 빌드 제공- [게임 플레이 링크](https://chaeminsohn.itch.io/idle-swordsman)
   
 
 ## 👥 만든 사람들
