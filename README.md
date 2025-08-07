@@ -115,20 +115,35 @@
 ![tutorial](Images/tutorialDiagram.png)
 </details>
 
-<summary>게민 |
-| [IAttackable](#) | 공격 가능한 대상이 구현해야 할 인터페이스 | 김경민 |
-| [IDamageable](#) | 피격 가능한 대상이 구현해야 할 인터페이스 | 김경민 |
+## UI
+
+| 스크립트 | 내용 | 기여자 |
+|----------|------|--------|
+| [GameManager](#) | 게임 매니저 | 김형중 |
+| [SoundManager](#) | 사운드 매니저 | 김형중 |
+| [Stage2Manager](#) | Stage 2 관리 | 정재훈, 박지원 |
+| [StartStoryUI](#) | 스토리 관리 | 김형중 |
+| [GimmickForObject](#) | Stage 3 관리 | 이홍준 |
+| [EndingController](#) | 전체 스테이지 클리어 및 엔딩씬 관리 | 박지원, 정재훈 |
+
+## 플레이어, 적
+
+| 스크립트 | 내용 | 기여자 |
+|----------|------|--------|
+| [BaseController](Scripts/Creature/BaseController.cs) | 공통 전투 로직을 담당하는 추상 클래스 | 김경 |
+| [PlayerController](Scripts/Creature/Player/PlayerController.cs) | 플레이어 전용 컨트롤러 | 김경민, 손채민 |
+| [EnemyController](Scripts/Creature/Enemy/EnemyController.cs) | 적 유닛 컨트롤러 | 김경민, 손채민 |
+| [IAttackable](Scripts/Creature/IAttackable.cs) | 공격 가능한 대상이 구현해야 할 인터페이스 | 김경민 |
+| [IDamageable](Scripts/Creature/IDamagable.cs) | 피격 가능한 대상이 구현해야 할 인터페이스 | 김경민 |
 
 ### 스킬
 
 | 스크립트 | 내용 | 기여자 |
 |----------|------|--------|
-| [GameManager](#) | 게임 매니저 | |
-| [SoundManager](#) | 사운드 매니저 |  |
-| [Stage2Manager](#) | Stage 2 관리 |  |
-| [StartStoryUI](#) | 스토리 관리 |  |
-| [GimmickForObject](#) | Stage 3 관리 | |
-| [EndingController](#) | 전체 스테이지 클리어 및 엔딩씬 관리 |  |
+| [SkillData](Scripts/Data/SkillData.cs) | 스킬의 정적 에이터 관리 | 김경민 |
+| [Skill](Scripts/Item/Skill/Skill.cs) | 런타임에 실제로 동작하는 스킬 인스턴스 관리 | 김경민 |
+| [SkillEquipment](Scripts/Item/Skill/SkillEquipment.cs) | 스킬의 장착/해제 관리 | 김경민, 손채민 |
+
 
 ### 아이템
 
@@ -154,7 +169,7 @@
 
 | 스크립트 | 내용 | 기여자 |
 |----------|------|--------|
-| [TimeManager(Scripts/Manager/Contents/TimeManager.cs) | 시간 관련 기능 관리 | 임예슬, 손채민 |
+| [TimeManager](Scripts/Manager/Contents/TimeManager.cs) | 시간 관련 기능 관리 | 임예슬, 손채민 |
 | [UIOfflineRewardPopup](Scripts/UI/Popup/UIOfflineRewardPopup.cs) | 방치 보상을 보여주는 UI | 임예슬 |
 | [UIBonusOfflineRewardPopup](Scripts/UI/Popup/UIBonusOfflineRewardPopup.cs) | 광고 시청 보너스 지급 | 임예슬 |
 
