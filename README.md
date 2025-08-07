@@ -41,18 +41,18 @@
 
 | 스크립트 | 내용 | 기여자 |
 |----------|------|--------|
-| [GameManager](#) | 게임 매니저 | 김형중 |
-| [SoundManager](#) | 사운드 매니저 | 김형중 |
-| [Stage2Manager](#) | Stage 2 관리 | 정재훈, 박지원 |
-| [StartStoryUI](#) | 스토리 관리 | 김형중 |
-| [GimmickForObject](#) | Stage 3 관리 | 이홍준 |
-| [EndingController](#) | 전체 스테이지 클리어 및 엔딩씬 관리 | 박지원, 정재훈 |
+| [GameManager](#) | 게임 매니저 | |
+| [SoundManager](#) | 사운드 매니저 |  |
+| [Stage2Manager](#) | Stage 2 관리 |  |
+| [StartStoryUI](#) | 스토리 관리 |  |
+| [GimmickForObject](#) | Stage 3 관리 | |
+| [EndingController](#) | 전체 스테이지 클리어 및 엔딩씬 관리 |  |
 
 ### 아이템
 
 | 스크립트 | 내용 | 기여자 |
 |----------|------|--------|
-| [EquipmentManager](Script/Manager/Core/EquipmentManager.cs) | 모든 타입의 아이템을 장착/해제하는 공통 로직 제공 | 손채민 |
+| [EquipmentManager](Scripts/Manager/Core/EquipmentManager.cs) | 모든 타입의 아이템을 장착/해제하는 공통 로직 제공 | 손채민 |
 | [ItemData](Scripts/Data/ItemData.cs) | 모든 아이템이 공통적으로 가지는 원본 데이터 정의 | 손채민 |
 | [ItemState](Scripts/Data/ItemState.cs) | 아이템의 가변적 데이터 저장 | 손채민 |
 | [GearEquipment](Scripts/Item/Gear/GearEquipment.cs) | 장비 아이템 장착/해제 관리 | 손채민 |
