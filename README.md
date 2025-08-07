@@ -119,12 +119,11 @@
 
 | 스크립트 | 내용 | 기여자 |
 |----------|------|--------|
-| [GameManager](#) | 게임 매니저 | 김형중 |
-| [SoundManager](#) | 사운드 매니저 | 김형중 |
-| [Stage2Manager](#) | Stage 2 관리 | 정재훈, 박지원 |
-| [StartStoryUI](#) | 스토리 관리 | 김형중 |
-| [GimmickForObject](#) | Stage 3 관리 | 이홍준 |
-| [EndingController](#) | 전체 스테이지 클리어 및 엔딩씬 관리 | 박지원, 정재훈 |
+| [UIManager](Scripts/Manager/Core/UIManager.cs) | UI 통합 관리 | 임예슬 |
+| [UIBase](Scripts/Manager/UI/UIBase.cs) | UI 컴포넌트의 공통 부모 클래스 | 임예슬 |
+| [UIScene](Scripts/Manager/UI/Scene/UIScene.cs) | 씬에 항상 존재하는 메인 UI | 임예슬 |
+| [UIPopup](Scripts/Manager/UI/Popup/UIPopup.cs) | 일시적 팝업 UI | 임예슬 |
+| [UIToast](Scripts/Manager/UI/Toast/UIToast.cs) | 알림 형태의 메시지 UI | 임예슬 |
 
 ## 플레이어, 적
 
