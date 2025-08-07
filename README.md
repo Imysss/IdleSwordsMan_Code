@@ -33,6 +33,88 @@
 - 설명: 점점 더 강해지는 적들을 처치하며 플레이어를 성장시켜 나가는 게임
 
 <details>
+- <summary>게임 소개 배너</summary>
+
+<br>
+
+![banner](Images/banner1.png)
+![cutscene](Images/cutScene.png) ![tutorial](Images/tutorial.png)
+![dungeon](Images/dungeon.png) ![gacha](Images/gacha.png)
+![offlineReward](Images/offlineReward.png)
+
+</details>
+
+
+## 🛠️ 주요 구현 기능
+
+- **게임 시스템 및 콘텐츠 루프 완성**
+    - 스탯 업그레이드, 장비/스킬/동료 뽑기 및 장착, 자동 스킬 시스템
+    - 골드 던전 / 보스 러시 / 방치 보상 / 컷신 기반 튜토리얼 흐름 구현
+        → **방치형 RPG의 기본 구조와 콘텐츠 루프를 실현**  
+- **Excel 기반 외부 데이터 설계 + 내부 데이터베이스 시스템 구축**
+    - 장비/스킬/동료/가챠/퀘스트 등 **모든 데이터를 Excel 기반 테이블로 설계**
+    - 이를 내부 **데이터베이스 구조로 연동 및 관리** → **유저의 성장/보유 상태도 저장 가능**
+    - 유저의 스탯, 보유 아이템, 게임 진행 상황 등을 **직렬화하여 자동 저장/로드 처리**
+- **UI/UX 설계 및 게임 흐름 구현**
+    - 버튼 흐름 기반 튜토리얼 + 에그 대장 내레이션으로 유저 가이드
+    - 장착 시 외형 변화, 자동 스킬 토글, 가챠 연출 등 직관적이고 몰입감 있는 인터페이스 구성
+- **Google Play 출시 준비 및 테스트 중**
+    - APK 빌드 및 업로드 테스트 완료
+    - 사전 테스트 사용자 피드백을 기반으로 **완성도 개선 및 버그 수정 진행 중**
+
+
+## 📃 기능 명세서
+
+<details>
+<summary>UML, 기능 정리</summary>
+  
+<br>
+
+**UI**
+
+![ui](Images/uiDiagram.png)
+
+**플레이어, 적**
+
+![playerEnemy](Images/playerEnemyDiagram.png)
+
+**스킬**
+
+![skill](Images/skillDiagram.png)
+
+**아이템**
+
+![item](Images/itemDiagram.png)
+
+**로그인**
+
+![login](Images/loginDiagram.png)
+
+**방치 보상**
+
+![offlineRewardDiagram](Images/offlineRewardDiagram.png)
+
+**가챠(뽑기 시스템)**
+
+![gachaDiagram](Images/gachaDiagram.png)
+
+**스탯 강화**
+
+![statUpgrade](Images/statUpgradeDiagram.png)
+
+**프로필 수정)**
+
+![profile](Images/profileDiagram.png)
+
+**퀘스트**
+
+![quest](Images/questDiagram.png)
+
+**튜토리얼**
+
+![tutorial](Images/tutorialDiagram.png)
+</details>
+
 <summary>게민 |
 | [IAttackable](#) | 공격 가능한 대상이 구현해야 할 인터페이스 | 김경민 |
 | [IDamageable](#) | 피격 가능한 대상이 구현해야 할 인터페이스 | 김경민 |
