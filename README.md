@@ -201,10 +201,10 @@
 | 스크립트 | 내용 | 기여자 |
 |----------|------|--------|
 | [TutorialManager](Scripts/Manager/Contents/TutorialManager.cs) | 튜토리얼 시작, 정보 관리 매니저 | 손채민 |
-| [UITutorial](Scripts/Tutorial/UITutorial.cs) | 튜토리얼 UI 관리 | 손채민 |
-| [TutorialStep](Scripts/Tutorial/TutorialStep.cs) | 튜토리얼 단계 추상 클래스 | 손채민 |
-| [DialougeTutorialStep](Scripts/Tutorial/DialogueTutorialStep.cs) | '대화' 타입의 튜토리얼 단계 | 손채민 |
-| [ActionTutorialStep](Scripts/Tutorial/ActionTutorialStep.cs) | '행동' 타입의 튜토리얼 단계 | 손채민 |
+| [UITutorial](Scripts/Turorial/UITutorial.cs) | 튜토리얼 UI 관리 | 손채민 |
+| [TutorialStep](Scripts/Turorial/TutorialStep.cs) | 튜토리얼 단계 추상 클래스 | 손채민 |
+| [DialougeTutorialStep](Scripts/Turorial/DialogueTutorialStep.cs) | '대화' 타입의 튜토리얼 단계 | 손채민 |
+| [ActionTutorialStep](Scripts/Turorial/ActionTutorialStep.cs) | '행동' 타입의 튜토리얼 단계 | 손채민 |
 
 
 
